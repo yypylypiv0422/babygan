@@ -17,11 +17,11 @@ certifi==2022.12.7
 cffi
 charset-normalizer
 clear-cache==1.0.0
-click @ file:///home/conda/feedstock_root/build_artifacts/click_1651215140632/work
-clip @ git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1
+click
+clip
 conda==22.11.1
-conda-content-trust @ file:///tmp/abs_5952f1c8-355c-4855-ad2e-538535021ba5h26t22e5/croots/recipe/conda-content-trust_1658126371814/work
-conda-package-handling @ file:///croot/conda-package-handling_1666940373510/work
+conda-content-trust
+conda-package-handling
 cryptography
 cycler==0.11.0
 decorator==4.4.2
