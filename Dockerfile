@@ -21,7 +21,7 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 # Set python 3 as the default python
 RUN update-alternatives --set python /usr/bin/python3.7
 RUN apt update
-RUN apt-get install python3-pip
+RUN apt-get install python3-pip -y
 RUN pip3 install --upgrade pip
 
 # # Upgrade pip to latest version
