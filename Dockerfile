@@ -32,7 +32,7 @@ Run apt install ninja-build -y
 # Create the environment: \
 RUN apt-get install build-essential cmake -y
 RUN apt-get -y install cmake
-RUN pip3 install dlib -y
+RUN pip3 install dlib
 
 COPY reqqq.txt .
 
