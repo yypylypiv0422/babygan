@@ -1,0 +1,52 @@
+.container{
+    box-shadow: 0 20px 35px rgba(0,0,0,0.05);
+    border-radius: 7px;
+}
+.image-container{
+    
+}
+.image-container img{
+    display: block;
+	margin-left: 12%;
+	max-height: 15%;
+	max-width: 10%;	
+}
+figcaption{
+    margin: 20px 0 30px 0;
+    text-align: center;
+    color: #2a292a;
+}
+input[type="file"]{
+    display: none;
+
+}
+label{
+    display: block;
+    position: relative;
+    background-color: #27a776;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    width: 40%;
+    padding: 18px 0;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.close {
+  font-size: 1.5rem;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
+}
+
+.col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
