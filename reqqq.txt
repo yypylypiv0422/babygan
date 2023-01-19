@@ -19,7 +19,7 @@ charset-normalizer
 clear-cache==1.0.0
 click
 clip
-conda==22.11.1
+conda
 conda-content-trust
 conda-package-handling
 cryptography
