@@ -20,21 +20,23 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 
 # Set python 3 as the default python
 RUN update-alternatives --set python /usr/bin/python3.7
-RUN apt-get install python-pip
+RUN apt update
+RUN apt-get install python3-pip
+RUN pip3 install --upgrade pip
 
-# Upgrade pip to latest version
-RUN curl -s https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
-    python get-pip.py --force-reinstall && \
-    rm get-pip.py
+# # Upgrade pip to latest version
+# RUN curl -s https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
+#     python get-pip.py --force-reinstall && \
+#     rm get-pip.py
 # Create the environment: \
 RUN apt-get install build-essential cmake -y
-RUN pip install cmake
-RUN pip install dlib
+RUN pip3 install cmake
+RUN pip3 install dlib
 
 COPY reqqq.txt .
 
-RUN pip install -r reqqq.txt
-RUN pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+RUN pip3 install -r reqqq.txt
+RUN pip3 install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 RUN apt-get install nvidia-cuda-toolkit -y
@@ -62,4 +64,4 @@ RUN gdown https://drive.google.com/uc?id=1dsoy9JpbJD1J8Wun-_CH8uDvFNEUVrLo
 
 
 EXPOSE 8000
-CMD python main.py
+CMD python3 main.py
