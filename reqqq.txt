@@ -23,7 +23,6 @@ cryptography
 cycler==0.11.0
 decorator==4.4.2
 dill
-django-crispy-forms==1.14.0
 dlib
 editdistance==0.6.2
 efficientnet==1.0.0
