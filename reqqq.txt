@@ -134,7 +134,7 @@ sanic-routing
 scikit-image
 scikit-learn
 scipy
-segmentation-models-pytorch==0.3.2
+segmentation-models-pytorch
 shapely==2.0.0
 six
 sounddevice==0.4.4
