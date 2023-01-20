@@ -46,7 +46,7 @@ google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio
-h5py==3.7.0
+h5py
 headpose==1.1.8
 httptools
 huggingface-hub==0.11.1
