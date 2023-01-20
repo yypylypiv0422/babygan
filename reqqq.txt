@@ -86,7 +86,7 @@ moviepy
 multidict
 munch
 networkx
-numba==0.56.4
+numba
 numpy
 oauthlib==3.2.2
 openai==0.26.1
