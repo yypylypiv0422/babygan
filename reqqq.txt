@@ -131,7 +131,7 @@ ruamel.yaml.clib
 s3transfer
 sanic
 sanic-routing
-scikit-image==0.19.3
+scikit-image
 scikit-learn==1.0.2
 scipy==1.7.3
 segmentation-models-pytorch==0.3.2
