@@ -89,7 +89,7 @@ networkx
 numba
 numpy
 oauthlib==3.2.2
-openai==0.26.1
+openai
 opencv-python==4.5.5.64
 opencv-python-headless
 openpyxl==3.0.10
