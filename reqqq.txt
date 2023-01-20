@@ -139,7 +139,6 @@ shapely
 six
 sounddevice
 soupsieve
-termcolor
 tifffile
 timm
 toolz
