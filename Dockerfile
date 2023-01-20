@@ -13,16 +13,16 @@ RUN apt-get update && apt-get upgrade -y && apt-get clean
 
 
 # Python package management and basic dependencies
-# RUN apt install software-properties-common -y
-# RUN add-apt-repository ppa:deadsnakes/ppa
-# RUN apt-get install -y curl python3.7 python3.7-dev python3.7-distutils
+RUN apt install software-properties-common -y
+RUN add-apt-repository ppa:deadsnakes/ppa
+RUN apt-get install -y curl python3.7 python3.7-dev python3.7-distutils
 
 
 # # Register the version in alternatives
-# RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 
 # # Set python 3 as the default python
-# RUN update-alternatives --set python /usr/bin/python3.7
+RUN update-alternatives --set python /usr/bin/python3.7
 RUN apt update
 RUN apt install -y gcc clang clang-tools cmake python3 python3-pip
 RUN pip3 install --upgrade pip
