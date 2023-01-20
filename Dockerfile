@@ -1,4 +1,4 @@
-ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.4.0-devel-ubuntu20.04
+ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.4.0-devel-ubuntu18.04
 FROM ${AARCH64_BASE_IMAGE}
 ENV DEBIAN_FRONTEND=noninteractive
 ENV CUDA_CROSS_VERSION=11-4
@@ -13,7 +13,10 @@ RUN apt-get update && apt-get upgrade -y && apt-get clean
 
 
 # Python package management and basic dependencies
+RUN apt install software-properties-common -y
+RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get install -y curl python3.7 python3.7-dev python3.7-distutils
+
 
 # Register the version in alternatives
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
