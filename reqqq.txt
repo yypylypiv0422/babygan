@@ -38,7 +38,7 @@ Flask-Cors
 flit_core
 fonttools
 frozenlist
-ftfy==6.1.1
+ftfy
 future
 gast==0.2.2
 gdown==4.6.0
