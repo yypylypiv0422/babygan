@@ -45,7 +45,7 @@ gdown==4.6.0
 google-auth==1.35.0
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
-grpcio==1.51.1
+grpcio
 h5py==3.7.0
 headpose==1.1.8
 httptools
