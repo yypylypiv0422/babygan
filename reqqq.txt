@@ -120,7 +120,7 @@ pyparsing==3.0.9
 PySocks
 python-dateutil==2.8.2
 pytz
-PyWavelets==1.3.0
+PyWavelets
 PyYAML
 regex==2022.10.31
 requests
