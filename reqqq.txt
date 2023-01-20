@@ -119,7 +119,7 @@ pyOpenSSL
 pyparsing==3.0.9
 PySocks
 python-dateutil==2.8.2
-pytz==2022.7.1
+pytz
 PyWavelets==1.3.0
 PyYAML
 regex==2022.10.31
