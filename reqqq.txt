@@ -19,9 +19,6 @@ charset-normalizer
 clear-cache
 click
 clip
-conda
-conda-content-trust
-conda-package-handling
 cryptography
 cycler==0.11.0
 decorator==4.4.2
