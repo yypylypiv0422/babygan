@@ -135,7 +135,7 @@ scikit-image
 scikit-learn
 scipy
 segmentation-models-pytorch
-shapely==2.0.0
+shapely
 six
 sounddevice==0.4.4
 soupsieve==2.3.2.post1
