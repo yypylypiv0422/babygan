@@ -74,7 +74,7 @@ Keras==2.3.1
 Keras-Applications==1.0.8
 keras-ocr==0.8.9
 Keras-Preprocessing==1.1.2
-kiwisolver==1.4.4
+kiwisolver
 libclang==14.0.6
 llvmlite==0.39.1
 loguru==0.6.0
