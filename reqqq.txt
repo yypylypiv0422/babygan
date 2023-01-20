@@ -101,7 +101,7 @@ parso==0.8.3
 pexpect==4.8.0
 pickle5==0.0.11
 pickleshare==0.7.5
-Pillow==9.3.0
+Pillow
 pluggy
 pretrainedmodels==0.7.4
 proglog==0.1.10
