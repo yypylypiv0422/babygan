@@ -56,10 +56,10 @@ imageio-ffmpeg
 tensorboard==1.15.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==1.15.2
+tensorflow==1.15.0
 tensorflow-addons==0.11.2
-tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.1
+tensorflow-estimator==1.15.0
+tensorflow-gpu==1.15.0
 tensorflow-io
 tensorflow-io-gcs-filesystem
 imgaug
