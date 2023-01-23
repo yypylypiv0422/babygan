@@ -53,7 +53,7 @@ RUN apt-get install nvidia-cuda-toolkit -y
 # Demonstrate the environment is activated:
 #RUN conda install -c anaconda flask
 # RUN echo "Make sure flask is installed:"
-RUN python -c "import flask"
+# RUN python -c "import flask"
 
 RUN gdown https://drive.google.com/uc?id=1h7d8X0yWS3IGEeuveNpYsp9ft5fcwkZH
 RUN gdown https://drive.google.com/uc?id=1R6sOvuuYP1KNrB6Odq1PkXn8FeHRVE2O
