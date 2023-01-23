@@ -63,6 +63,5 @@ RUN gdown https://drive.google.com/uc?id=1Ze2OLkJ7lmRxx6g5oc701C1DyVn5yUyZ
 RUN gdown https://drive.google.com/uc?id=1OVIz5G4WsoJVzjFbyClt4x6WJRTnzwb0
 RUN gdown https://drive.google.com/uc?id=1dsoy9JpbJD1J8Wun-_CH8uDvFNEUVrLo
 
-
 EXPOSE 8000
 CMD python3 main.py
