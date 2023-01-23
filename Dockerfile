@@ -41,7 +41,7 @@ COPY reqqq.txt .
 # RUN python --version
 RUN pip3 install -r reqqq.txt
 # RUN pip3 install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
-RUN pip3  install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+RUN pip3  install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 RUN apt-get install nvidia-cuda-toolkit -y
 
