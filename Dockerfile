@@ -1,6 +1,5 @@
 ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.4.0-devel-ubuntu18.04
 FROM ${AARCH64_BASE_IMAGE}
-FROM python3.7
 ENV DEBIAN_FRONTEND=noninteractive
 ENV CUDA_CROSS_VERSION=11-4
 ENV CUDA_CROSS_VERSION_DOT=11.4
@@ -25,7 +24,7 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 # # Set python 3 as the default python
 RUN update-alternatives --set python /usr/bin/python3.7
 RUN apt update
-RUN apt install -y gcc clang clang-tools cmake python3 python3-pip
+RUN apt install -y gcc clang clang-tools cmake python3.7 python3.7-pip
 RUN pip3 install --upgrade pip
 Run apt install ninja-build -y
 
