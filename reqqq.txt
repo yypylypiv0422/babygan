@@ -53,7 +53,7 @@ huggingface-hub
 idna
 imageio
 imageio-ffmpeg
-tensorboard==1.15.0
+tensorboard
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 tensorflow==1.15.0
