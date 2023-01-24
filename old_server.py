@@ -22,7 +22,7 @@ def healthcheck():
     # dependency free way to check if GPU is visible
     gpu = False
     out = subprocess.run("nvidia-smi", shell=True)
-    if out.returncode == 0:  # success state on shell command
+    if out.returncode == 0:  # success state on shell commandmainn
         gpu = True
 
     return request.json({"state": "healthy", "gpu": gpu})
