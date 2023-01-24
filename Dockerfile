@@ -45,7 +45,6 @@ RUN gdown https://drive.google.com/uc?id=1dsoy9JpbJD1J8Wun-_CH8uDvFNEUVrLo
 RUN gdown https://drive.google.com/uc?id=1OVIz5G4WsoJVzjFbyClt4x6WJRTnzwb0
 RUN gdown https://drive.google.com/uc?id=1Ze2OLkJ7lmRxx6g5oc701C1DyVn5yUyZ
 RUN gdown https://drive.google.com/uc?id=1R6sOvuuYP1KNrB6Odq1PkXn8FeHRVE2O
-RUN gdown https://drive.google.com/uc?id=1Zl1siRQuLSRqSamW4BXx6btQxNB1BDWW
 RUN gdown --folder https://drive.google.com/drive/folders/1Zl1siRQuLSRqSamW4BXx6btQxNB1BDWW
 
 
