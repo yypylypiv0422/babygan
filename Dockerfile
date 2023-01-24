@@ -28,14 +28,10 @@ RUN apt install -y gcc clang clang-tools cmake python3 python3-pip
 RUN pip3 install --upgrade pip
 Run apt install ninja-build -y
 
-# # Upgrade pip to latest version
-# RUN curl -s https://bootstrap.pypa.io/get-pip.py -o get-pip.py && \
-#     python get-pip.py --force-reinstall && \
-#     rm get-pip.py
-# Create the environment: \
 RUN apt-get install build-essential cmake -y
 RUN apt-get -y install cmake
 RUN pip3 install dlib
+RUN pip3 install flask -y
 
 COPY reqqq.txt .
 # RUN python --version
@@ -44,17 +40,6 @@ RUN pip3 install -r reqqq.txt
 RUN pip3  install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 RUN apt-get install nvidia-cuda-toolkit -y
-
-# Make RUN commands  use the new environment:
-#conda env create -f environment.yaml
-#SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
-
-
-# Demonstrate the environment is activated:
-#RUN conda install -c anaconda flask
-# RUN echo "Make sure flask is installed:"
-# RUN python -c "import flask"
-
 
 RUN gdown https://drive.google.com/uc?id=1dsoy9JpbJD1J8Wun-_CH8uDvFNEUVrLo
 RUN gdown https://drive.google.com/uc?id=1OVIz5G4WsoJVzjFbyClt4x6WJRTnzwb0
