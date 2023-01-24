@@ -31,7 +31,7 @@ Run apt install ninja-build -y
 RUN apt-get install build-essential cmake -y
 RUN apt-get -y install cmake
 RUN pip3 install dlib
-RUN pip3 install flask -y
+
 
 COPY reqqq.txt .
 # RUN python --version
