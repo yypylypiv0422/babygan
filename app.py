@@ -174,7 +174,7 @@ def generate_parameters(father_face, mother_face, pil_father, pil_mother, emphas
 # # !python encode_images.py --early_stopping False --lr=0.25 --batch_size=2 --iterations=100 ./aligned_images ./generated_images ./latent_representations
 #
 #
-def main_functionn(f,m,output_folder,agee):
+def inference(f,m,output_folder,agee):
 
 
     directories = ["./aligned_images", "./latent_representations","./generated_images",output_folder]
