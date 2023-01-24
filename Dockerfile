@@ -49,4 +49,4 @@ RUN gdown --folder https://drive.google.com/drive/folders/1Zl1siRQuLSRqSamW4BXx6
 
 
 EXPOSE 8000
-CMD python3 main.py
+CMD python3 main_new.py
