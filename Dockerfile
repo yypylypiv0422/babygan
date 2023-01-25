@@ -41,11 +41,11 @@ RUN pip3  install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 RUN apt-get install nvidia-cuda-toolkit -y
 
-RUN gdown https://drive.google.com/uc?id=1dsoy9JpbJD1J8Wun-_CH8uDvFNEUVrLo
-RUN gdown https://drive.google.com/uc?id=1OVIz5G4WsoJVzjFbyClt4x6WJRTnzwb0
-RUN gdown https://drive.google.com/uc?id=1Ze2OLkJ7lmRxx6g5oc701C1DyVn5yUyZ
-RUN gdown https://drive.google.com/uc?id=1R6sOvuuYP1KNrB6Odq1PkXn8FeHRVE2O
-RUN gdown --folder https://drive.google.com/drive/folders/1Zl1siRQuLSRqSamW4BXx6btQxNB1BDWW
+RUN gdown https://drive.google.com/uc?id=1ymrzNl4bX39dT6mjilnpvbj4EWL5-iAr
+RUN gdown https://drive.google.com/uc?id=1jPWjvk9BQUwUgARbPcckMM0P3Ek4mhB4
+RUN gdown https://drive.google.com/uc?id=1oiRcL-Pn-mWg9A9Hfrtumxo4v5od_CQE
+RUN gdown https://drive.google.com/uc?id=1f8dds1W0Kkw-z-CzdVm3EiwlowofkBeP
+RUN gdown --folder https://drive.google.com/drive/folders/1lZyKIHkaYus5bGUwEuX7H1P6qF1jfI8H
 
 
 EXPOSE 8000
