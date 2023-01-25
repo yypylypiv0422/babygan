@@ -27,18 +27,7 @@ RUN apt update
 RUN apt install -y gcc clang clang-tools cmake python3 python3-pip
 RUN pip3 install --upgrade pip
 RUN pip3 install gdown
-#RUN gdown https://drive.google.com/uc?id=10soaW65E0fs2C5s6UqDZXEjNj-Jv2sAD
 
-#RUN gdown https://drive.google.com/uc?id=15y77prO-gqsrOpWc0TNIhl4PklbEP62I
-
-#RUN gdown https://drive.google.com/uc?id=1nW3xC2CbQB-LqeNw4jfgESuhOwUwAPpx
-##
-#RUN gdown https://drive.google.com/uc?id=1yvvhfsA-0mpttnGRMc-n0OR4XKIwlqFL
-
-#RUN gdown https://drive.google.com/uc?id=1KZ_DOKgD2YWH-zP783ieph3_Qs4466Xt
-
-RUN gdown --folder https://drive.google.com/drive/folders/11AKi_T2zEz7OOE5KuEKT1Gas0R187i_W
-RUN echo "all download sucess........................."
 
 
 Run apt install ninja-build -y
@@ -56,8 +45,6 @@ RUN pip3 install -r reqqq.txt
 RUN pip3  install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 RUN apt-get install nvidia-cuda-toolkit -y
-
-
 
 
 
