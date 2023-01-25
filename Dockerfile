@@ -41,6 +41,9 @@ RUN pip3  install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 RUN apt-get install nvidia-cuda-toolkit -y
 
+
+
+
 RUN gdown https://drive.google.com/uc?id=1ANeS89HCBGwgeXSicuseI7eeVp-qTJkc
 RUN gdown https://drive.google.com/uc?id=1oiRcL-Pn-mWg9A9Hfrtumxo4v5od_CQE
 RUN gdown https://drive.google.com/uc?id=1ymrzNl4bX39dT6mjilnpvbj4EWL5-iAr
