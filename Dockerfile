@@ -29,9 +29,9 @@ RUN pip3 install --upgrade pip
 
 RUN pip3 install gdown
 RUN gdown https://drive.google.com/uc?id=1loNQw_UOHmEuIocz706n_Niok2TF-5As
-RUN gdown https://drive.google.com/uc?id=1oiRcL-Pn-mWg9A9Hfrtumxo4v5od_CQE
-RUN gdown https://drive.google.com/uc?id=1ymrzNl4bX39dT6mjilnpvbj4EWL5-iAr
-RUN gdown https://drive.google.com/uc?id=1GySwsViweZGdKmDII2J8fcRt5gONqvbV
+RUN gdown https://drive.google.com/uc?id=1vN0rhmT0cKVINtdxkNG_x8vpYfO8hsmj
+RUN gdown https://drive.google.com/uc?id=1UrmOoq619DjcLPFD7c1Ujv41wzNS8xJX
+RUN gdown https://drive.google.com/uc?id=1JLcfP8RyN1uddnNje5V-OAvTyrUveSqp
 RUN gdown https://drive.google.com/uc?id=1t6z7YRcCjX1o4QBwqUYYiyN9PUrDBwnr
 RUN gdown --folder https://drive.google.com/drive/folders/11AKi_T2zEz7OOE5KuEKT1Gas0R187i_W
 RUN echo "all download sucess........................."
