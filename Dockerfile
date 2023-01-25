@@ -31,7 +31,7 @@ Run apt install ninja-build -y
 RUN apt-get install build-essential cmake -y
 RUN apt-get -y install cmake
 RUN pip3 install dlib
-RUN makdir raw_images
+RUN mkdir -p raw_images
 
 
 COPY reqqq.txt .
