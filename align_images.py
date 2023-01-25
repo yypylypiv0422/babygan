@@ -63,7 +63,7 @@ def unpack_bz2(src_path):
 def align(raw_dir,aligned_dir):
     RAW_IMAGES_DIR = raw_dir
     ALIGNED_IMAGES_DIR = aligned_dir
-    landmarks_model_path = unpack_bz2("shape_predictor_68_face_landmarks.dat.bz2")
+    landmarks_model_path = unpack_bz2("./shape_predictor_68_face_landmarks.dat.bz2")
     parser = argparse.ArgumentParser(description='Align faces from input images',formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--output_size', default=1024, help='The dimension of images for input to the model', type=int)
     parser.add_argument('--x_scale', default=1, help='Scaling factor for x dimension', type=float)
