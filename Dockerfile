@@ -28,7 +28,7 @@ RUN apt install -y gcc clang clang-tools cmake python3 python3-pip
 RUN pip3 install --upgrade pip
 
 RUN pip3 install gdown
-RUN gdown https://drive.google.com/uc?id=1ANeS89HCBGwgeXSicuseI7eeVp-qTJkc
+RUN gdown https://drive.google.com/uc?id=1loNQw_UOHmEuIocz706n_Niok2TF-5As
 RUN gdown https://drive.google.com/uc?id=1oiRcL-Pn-mWg9A9Hfrtumxo4v5od_CQE
 RUN gdown https://drive.google.com/uc?id=1ymrzNl4bX39dT6mjilnpvbj4EWL5-iAr
 RUN gdown https://drive.google.com/uc?id=1GySwsViweZGdKmDII2J8fcRt5gONqvbV
