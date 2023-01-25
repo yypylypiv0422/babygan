@@ -28,8 +28,6 @@ RUN apt install -y gcc clang clang-tools cmake python3 python3-pip
 RUN pip3 install --upgrade pip
 RUN pip3 install gdown
 
-
-
 Run apt install ninja-build -y
 
 RUN apt-get install build-essential cmake -y
