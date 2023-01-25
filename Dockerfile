@@ -46,7 +46,7 @@ RUN gdown https://drive.google.com/uc?id=1oiRcL-Pn-mWg9A9Hfrtumxo4v5od_CQE
 RUN gdown https://drive.google.com/uc?id=1ymrzNl4bX39dT6mjilnpvbj4EWL5-iAr
 RUN gdown https://drive.google.com/uc?id=1GySwsViweZGdKmDII2J8fcRt5gONqvbV
 RUN gdown https://drive.google.com/uc?id=1lZyKIHkaYus5bGUwEuX7H1P6qF1jfI8H
-RUN gdown --folder https://drive.google.com/drive/folders/1lZyKIHkaYus5bGUwEuX7H1P6qF1jfI8H
+RUN gdown --folder https://drive.google.com/drive/folders/11AKi_T2zEz7OOE5KuEKT1Gas0R187i_W
 
 
 EXPOSE 8000
