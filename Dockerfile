@@ -10,8 +10,7 @@ COPY . .
 RUN apt-get update && apt-get upgrade -y && apt-get clean
 
 # (...)
-
-
+RUN apt-get update --fix-missing -y
 # Python package management and basic dependencies
 RUN apt install software-properties-common -y
 RUN add-apt-repository ppa:deadsnakes/ppa
