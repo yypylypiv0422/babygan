@@ -1,11 +1,11 @@
-ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.3.0-devel-ubuntu18.04
+ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.4.0-devel-ubuntu18.04
 FROM ${AARCH64_BASE_IMAGE}
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV CUDA_CROSS_VERSION=11-3
-ENV CUDA_CROSS_VERSION_DOT=11.3
+ENV CUDA_CROSS_VERSION=11-4
+ENV CUDA_CROSS_VERSION_DOT=11.4
 
-# FROM pytorch/pytorch:1.12.1-cuda11.3-cudnn8-runtime
+# FROM pytorch/pytorch:1.15.1-cuda11.4-cudnn8-runtime
 
 WORKDIR /
 
