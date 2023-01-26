@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.4.0-gpu-py3
+FROM tensorflow/tensorflow:1.15.0-gpu-py3
 
 ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.3.0-devel-ubuntu18.04
 FROM ${AARCH64_BASE_IMAGE}
