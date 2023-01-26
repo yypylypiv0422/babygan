@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV CUDA_CROSS_VERSION=11-3
 ENV CUDA_CROSS_VERSION_DOT=11.3
 
-FROM pytorch/pytorch:1.12.1-cuda11.3-cudnn8-runtime
+# FROM pytorch/pytorch:1.12.1-cuda11.3-cudnn8-runtime
 
 WORKDIR /
 
