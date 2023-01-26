@@ -1,4 +1,4 @@
-ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.3.0-devel-ubuntu28.04
+ARG AARCH64_BASE_IMAGE=nvidia/cuda:11.3.0-devel-ubuntu18.04
 FROM ${AARCH64_BASE_IMAGE}
 
 ENV DEBIAN_FRONTEND=noninteractive
